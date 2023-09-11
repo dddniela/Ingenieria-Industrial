@@ -173,7 +173,7 @@
 
 
     <div class="justify-content-center text-center">
-        <p><a class="btn-warning w-auto btn font-bold" target="_blank" href="https://tinyurl.com/yttnnktz">Descargar
+        <p><a class="btn-warning w-auto btn font-bold" target="_blank" href="https://tinyurl.com/bmnn8ktp">Descargar
                 Retícula</a></p>
     </div>
 
@@ -200,6 +200,8 @@
                                 la formación
                                 profesional de los estudiantes de las instituciones adscritas al Tecnológico Nacional de
                                 México.
+                                <br></br>
+                                Para complementar su formación académica, además de las 5 materias obligatorias, el estudiante deberá cursar al menos 2 materias optativas que se encuentren disponibles dentro de su especialidad
                         </div>
                     </div>
                 </div>

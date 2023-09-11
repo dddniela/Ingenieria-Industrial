@@ -47,7 +47,9 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
             Digital y Laboratorio de estudio de trabajo.
             Las instalaciones están orientadas para el desarrollo de las competencias necesarias de los 
             estudiantes así como para llevar a cabo un aprendizaje didáctico, desarrollando proyectos y 
-            aplicando herramientas de Ingeniería Industrial. El objetivo principal del
+            aplicando herramientas de Ingeniería Industrial.
+            <br /><br />
+            El objetivo principal del
               departamento es poner al alcance de los estudiantes diferentes
               laboratorios para el desarrollo de sus materias
               prácticas y la orientación en los diversos trámites requeridos a
