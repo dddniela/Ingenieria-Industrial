@@ -8,7 +8,7 @@ $objetivo = $seccion->getObjetivo();
 <!-- Portada -->
 <div class="row g-0">
     <div class="position-relative w-100 overflow-hidden">
-        <img class="w-100 img-fluid" src="img/IMG-43.webp" alt="">
+        <img class="w-100 img-fluid" src="img/banner-perfil.webp" alt="">
         <div class="position-absolute top-50 start-50 translate-middle w-100">
             <div class="d-flex flex-column justify-content-center align-items-center text-center">
                 <h1 class="fw-bold text-warning shadow-text">Perfil de Egreso</h1>
@@ -45,7 +45,7 @@ $objetivo = $seccion->getObjetivo();
         </div>-->
         <div class="col-lg-6 col-12 p-2 shadow-sm">
             <div class="d-flex justify-content-center align-items-center w-100 h-100">
-                <img class="img-fluid rounded" src="img/IMG_7305.JPG" alt="">
+                <img class="img-fluid rounded" src="img/egreso-1.webp" alt="">
             </div>
         </div>
         <div class="lightSection col-lg-6 col-12 p-4">
@@ -108,37 +108,37 @@ $objetivo = $seccion->getObjetivo();
                 <div class="row g-0">
                     <div class="col-md-4 px-2">
                         <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage1">
-                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/IMG_4446.webp" alt="">
+                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/galeria-1.webp" alt="">
                         </a>
                         <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage2">
-                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/Venus.webp" alt="">
+                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/galeria-2.webp" alt="">
                         </a>
                         <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage3">
-                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/ITVER.webp" alt="">
+                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/galeria-3.webp" alt="">
                         </a>
                     </div>
 
                     <div class="col-md-4 px-2">
                         <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage4">
-                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/IMG_2253.webp" alt="">
+                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/galeria-4.webp" alt="">
                         </a>
                         <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage5">
-                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/IMG_0456.webp" alt="">
+                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/galeria-5.webp" alt="">
                         </a>
                         <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage6">
-                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/IMG_0579.webp" alt="">
+                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/galeria-6.webp" alt="">
                         </a>
                     </div>
 
                     <div class="col-md-4 px-2">
                         <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage7">
-                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/IMG_1110.webp" alt="">
+                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/galeria-7.webp" alt="">
                         </a>
                         <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage8">
-                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/IMG_1713.webp" alt="">
+                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/galeria-8.webp" alt="">
                         </a>
                         <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage9">
-                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/IMG_3879.webp" alt="">
+                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/galeria-9.webp" alt="">
                         </a>
                     </div>
 
@@ -151,10 +151,10 @@ $objetivo = $seccion->getObjetivo();
                 <div class="row g-0">
                     <div class="col-12 px-2">
                         <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage10">
-                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/IMG_2102.webp" alt="">
+                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/galeria-10.webp" alt="">
                         </a>
                         <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage11">
-                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/IMG_3878.webp" alt="">
+                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/galeria-11.webp" alt="">
                         </a>
                     </div>
 
@@ -172,8 +172,8 @@ $objetivo = $seccion->getObjetivo();
 <div tabindex="-1" aria-labelledby="modalImage1" aria-hidden="true" class="modal fade" id="modalImage1">
     <div class="modal-dialog modal-lg modal-dialog-centered">
         <div class="modal-content bg-transparent text-white text-center">
-            <img src="img/IMG_4446.webp" alt="">
-            <p>Logo del Instituto Tecnológico de México Veracruz</p>
+            <img src="img/galeria-1.webp" alt="">
+            <p>Sala de Antropometría</p>
         </div>
     </div>
 </div>
@@ -181,8 +181,8 @@ $objetivo = $seccion->getObjetivo();
 <div tabindex="-1" aria-labelledby="modalImage2" aria-hidden="true" class="modal fade" id="modalImage2">
     <div class="modal-dialog modal-lg modal-dialog-centered">
         <div class="modal-content bg-transparent text-white text-center">
-            <img src="img/Venus.webp" alt="">
-            <p>Estatua Venus</p>
+            <img src="img/galeria-2.webp" alt="">
+            <p>Sala Digital del Laboratorio de Ingeniería Industrial</p>
         </div>
     </div>
 </div>
@@ -190,8 +190,8 @@ $objetivo = $seccion->getObjetivo();
 <div tabindex="-1" aria-labelledby="modalImage3" aria-hidden="true" class="modal fade" id="modalImage3">
     <div class="modal-dialog modal-lg modal-dialog-centered">
         <div class="modal-content bg-transparent text-white text-center">
-            <img src="img/ITVER.webp" alt="">
-            <p>Letras del Instituto Tecnológico de México Veracruz</p>
+            <img src="img/galeria-3.webp" alt="">
+            <p>Pasillos del Laboratorio de Ingeniería Industrial</p>
         </div>
     </div>
 </div>
@@ -199,8 +199,8 @@ $objetivo = $seccion->getObjetivo();
 <div tabindex="-1" aria-labelledby="modalImage4" aria-hidden="true" class="modal fade" id="modalImage4">
     <div class="modal-dialog modal-lg modal-dialog-centered">
         <div class="modal-content bg-transparent text-white text-center">
-            <img src="img/IMG_2253.webp" alt="">
-            <p>Áreas recreativas</p>
+            <img src="img/galeria-4.webp" alt="">
+            <p>Explanada del ITVER</p>
         </div>
     </div>
 </div>
@@ -208,8 +208,8 @@ $objetivo = $seccion->getObjetivo();
 <div tabindex="-1" aria-labelledby="modalImage5" aria-hidden="true" class="modal fade" id="modalImage5">
     <div class="modal-dialog modal-lg modal-dialog-centered">
         <div class="modal-content bg-transparent text-white text-center">
-            <img src="img/IMG_0456.webp" alt="">
-            <p>Áreas recreativas</p>
+            <img src="img/galeria-5.webp" alt="">
+            <p>Pasillos del ITVER</p>
         </div>
     </div>
 </div>
@@ -217,8 +217,8 @@ $objetivo = $seccion->getObjetivo();
 <div tabindex="-1" aria-labelledby="modalImage6" aria-hidden="true" class="modal fade" id="modalImage6">
     <div class="modal-dialog modal-lg modal-dialog-centered">
         <div class="modal-content bg-transparent text-white text-center">
-            <img src="img/IMG_0579.webp" alt="">
-            <p>Edificio E</p>
+            <img src="img/galeria-6.webp" alt="">
+            <p>Pasillos del ITVER</p>
         </div>
     </div>
 </div>
@@ -226,8 +226,8 @@ $objetivo = $seccion->getObjetivo();
 <div tabindex="-1" aria-labelledby="modalImage7" aria-hidden="true" class="modal fade" id="modalImage7">
     <div class="modal-dialog modal-lg modal-dialog-centered">
         <div class="modal-content bg-transparent text-white text-center">
-            <img src="img/IMG_1110.webp" alt="">
-            <p>Clúster del Laboratorio de Cómputo Intensivo</p>
+            <img src="img/galeria-7.webp" alt="">
+            <p>Estatua de Venus</p>
         </div>
     </div>
 </div>
@@ -235,8 +235,8 @@ $objetivo = $seccion->getObjetivo();
 <div tabindex="-1" aria-labelledby="modalImage8" aria-hidden="true" class="modal fade" id="modalImage8">
     <div class="modal-dialog modal-lg modal-dialog-centered">
         <div class="modal-content bg-transparent text-white text-center">
-            <img src="img/IMG_1713.webp" alt="">
-            <p>Laboratorio de Cómputo Intensivo</p>
+            <img src="img/galeria-8.webp" alt="">
+            <p>Mural del ITVER</p>
         </div>
     </div>
 </div>
@@ -244,8 +244,8 @@ $objetivo = $seccion->getObjetivo();
 <div tabindex="-1" aria-labelledby="modalImage9" aria-hidden="true" class="modal fade" id="modalImage9">
     <div class="modal-dialog modal-lg modal-dialog-centered">
         <div class="modal-content bg-transparent text-white text-center">
-            <img src="img/IMG_3879.webp" alt="">
-            <p>Laboratorio de cómputo</p>
+            <img src="img/galeria-9.webp" alt="">
+            <p>Logo del ITVER</p>
         </div>
     </div>
 </div>
@@ -253,8 +253,8 @@ $objetivo = $seccion->getObjetivo();
 <div tabindex="-1" aria-labelledby="modalImage10" aria-hidden="true" class="modal fade" id="modalImage10">
     <div class="modal-dialog modal-lg modal-dialog-centered">
         <div class="modal-content bg-transparent text-white text-center">
-            <img src="img/IMG_2102.webp" alt="">
-            <p>Edificio U: Sistemas</p>
+            <img src="img/galeria-10.webp" alt="">
+            <p>Auditorio del Laboratorio de Ingeniería Industrial</p>
         </div>
     </div>
 </div>
@@ -262,8 +262,8 @@ $objetivo = $seccion->getObjetivo();
 <div tabindex="-1" aria-labelledby="modalImage11" aria-hidden="true" class="modal fade" id="modalImage11">
     <div class="modal-dialog modal-lg modal-dialog-centered">
         <div class="modal-content bg-transparent text-white text-center">
-            <img src="img/IMG_3878.webp" alt="">
-            <p>Laboratorio de cómputo</p>
+            <img src="img/galeria-11.webp" alt="">
+            <p>Casilleros del Laboratorio de Ingeniería Industria</p>
         </div>
     </div>
 </div>

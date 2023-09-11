@@ -19,7 +19,7 @@ class Administrativo
     public function getAdministrativos()
     {
         $cn = $this->connection;
-        $sql = 'SELECT tbl_administrativo.nombre, tbl_administrativo.descripcion, tbl_administrativo.imagen, tbl_puesto_administrativo.nombrePuesto
+        $sql = 'SELECT tbl_administrativo.nombre, tbl_administrativo.descripcion, tbl_administrativo.imagen, tbl_puesto_administrativo.nombre
         FROM tbl_administrativo AS tbl_administrativo 
         INNER JOIN tbl_administrativo_carrera  AS tbl_administrativo_carrera
         ON tbl_administrativo.administrativoId = tbl_administrativo_carrera.administrativoId,
@@ -34,7 +34,7 @@ class Administrativo
     public function getJefeDepartamento()
     {
         $cn = $this->connection;
-        $sql = "SELECT tbl_administrativo.nombre, tbl_administrativo.descripcion, tbl_administrativo.imagen, tbl_puesto_administrativo.nombrePuesto, 
+        $sql = "SELECT tbl_administrativo.nombre, tbl_administrativo.descripcion, tbl_administrativo.imagen, tbl_puesto_administrativo.nombre, 
         tbl_carrera.nombre as 'nombreCarrera' FROM tbl_administrativo AS tbl_administrativo
         INNER JOIN tbl_administrativo_carrera AS tbl_administrativo_carrera 
         ON tbl_administrativo.administrativoId = tbl_administrativo_carrera.administrativoId 
@@ -53,7 +53,7 @@ class Administrativo
     public function getCoordinador()
     {
         $cn = $this->connection;
-        $sql = "SELECT tbl_administrativo.nombre, tbl_administrativo.descripcion, tbl_administrativo.imagen, tbl_puesto_administrativo.nombrePuesto, 
+        $sql = "SELECT tbl_administrativo.nombre, tbl_administrativo.descripcion, tbl_administrativo.imagen, tbl_puesto_administrativo.nombre, 
         tbl_carrera.nombre as 'nombreCarrera' FROM tbl_administrativo AS tbl_administrativo
         INNER JOIN tbl_administrativo_carrera AS tbl_administrativo_carrera 
         ON tbl_administrativo.administrativoId = tbl_administrativo_carrera.administrativoId 

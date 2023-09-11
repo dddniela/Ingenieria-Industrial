@@ -9,7 +9,7 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
 <!-- Portada -->
 <div class="row g-0">
   <div class="position-relative w-100 overflow-hidden">
-    <img class="w-100 img-fluid" src="img/Venus-4.webp" alt="" />
+    <img class="w-100 img-fluid" src="img/banner-conocenos.webp" alt="" />
     <div class="position-absolute top-50 start-50 translate-middle w-100">
       <div class="d-flex flex-column justify-content-center align-items-center text-center">
         <h1 class="fw-bold text-warning shadow-text">Conócenos</h1>
@@ -22,14 +22,14 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
 </div>
 <!-- Fin Portada-->
 
-<!-- Departamento de Sistemas -->
+<!-- Departamento de Industrial -->
 <div class="bg-primary pt-5"></div>
 <section class="lightSection bg-light">
   <div class="row px-2 g-0">
 
     <div class="col-lg-6 col-12 p-2 shadow-sm">
       <div class="d-flex justify-content-center align-items-center w-100 h-100">
-        <img class="img-fluid rounded" src="img/IMG_0705.jpg" alt="">
+        <img class="img-fluid rounded" src="img/conocenos.webp" alt="">
       </div>
     </div>
 
@@ -41,8 +41,13 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
             <div class="sectionSeparator"></div>
           </div>
           <div class="col-12" style="text-align: center;">
-            <p style="text-align: justify;"> La carrera de Ingeniería Industrial pertenece al
-              departamento del mismo nombre, el objetivo principal del
+            <p style="text-align: justify;"> 
+            El Departamento de Ingeniería Industrial cuenta con aulas diseñadas adecuadamente para el 
+            desempeño de la actividad educativa; Sala de Antropometría, Sala de Seguridad e Higiene, Sala 
+            Digital y Laboratorio de estudio de trabajo.
+            Las instalaciones están orientadas para el desarrollo de las competencias necesarias de los 
+            estudiantes así como para llevar a cabo un aprendizaje didáctico, desarrollando proyectos y 
+            aplicando herramientas de Ingeniería Industrial. El objetivo principal del
               departamento es poner al alcance de los estudiantes diferentes
               laboratorios para el desarrollo de sus materias
               prácticas y la orientación en los diversos trámites requeridos a
@@ -57,7 +62,7 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
 
   </div>
 </section>
-<!--Fin Departamento de Sistemas -->
+<!--Fin Departamento de Industrial -->
 
 <!-- Descripción Jefa/e del departamento -->
 <div class="bg-primary pt-5"></div>
@@ -78,7 +83,7 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
             <h4 class="text-center fw-bold fs-3">
               <?php
               if ($jefeDepartamento) {
-                echo $jefeDepartamento->nombrePuesto . " de Ingeniería Industrial";
+                echo $jefeDepartamento->nombre . " de Ingeniería Industrial";
               }
               ?>
             </h4>
@@ -132,7 +137,7 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
             <h4 class="text-center fw-bold fs-3">
               <?php
               if ($coordinador) {
-                echo $coordinador->nombrePuesto . " de " . $coordinador->nombreCarrera;
+                echo $coordinador->nombre . " de " . $coordinador->nombreCarrera;
               }
               ?>
             </h4>
@@ -168,7 +173,7 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
             </h2>
             <div class="separadorSeccionOscura"></div>
             <h4 class="text-center text-light fw-bold fs-3">
-              Laboratorios de cómputo
+              Sala de Antropometría
             </h4>
           </div>
           <div class="col-12">
@@ -178,18 +183,15 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
             </h6>
 
             <p class="text-light" style="text-align: justify">
-              El departamento de sistemas y computación cuenta con diversos
-              laboratorios de equipo de cómputo en dónde los estudiantes podrán
-              desempañarse en desarrollar diversos programas, aplicaciones y
-              proyectos a lo largo de sus clases prácticas en la carrera de
-              ingeniería en sistemas computacionales. <br /><br />
-              Los laboratorios de cómputo están orientados a servir como
+              El departamento de ingeniería industrial cuenta con una sala de Antropometría en dónde los estudiantes podrán utilizar equipo que les permita realizar la medición y estudio de las dimensiones físicas del cuerpo humano, como altura, peso, longitud de extremidades, para comprender la variabilidad y aplicarla en diferentes campos, como diseño ergonómico o salud.
+              <br /><br />
+              La sala de Antropometría está orientada a servir como
               herramientas de aprendizaje y apoyo didáctico tanto para los
               docentes como los alumnos.
             </p>
             <div class="justify-content-center text-center">
-              <p><a class="btn-warning w-auto btn font-bold" target="_blank" href="https://bit.ly/3ZrhDeQ">
-                  Reglamento de Laboratorio</a></p>
+              <p><a class="btn-warning w-auto btn font-bold" target="_blank" href="https://tinyurl.com/yn5bebvp">
+                  Reglamento</a></p>
             </div>
           </div>
         </div>
@@ -197,29 +199,29 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
     </div>
 
     <div class="col-lg-6 col-12 p-2 d-flex justify-content-center align-items-center">
-      <!-- Galería con modal para laboratorios de cómputo -->
+      <!-- Galería con modal para laboratorios-->
       <div class="contenedor-galeria bg-dark">
         <div class="row">
           <div class="col-lg-6">
             <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage1">
-              <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/IMG_3878.webp" alt="" />
+              <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/antropometria-1.webp" alt="" />
             </a>
             <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage2">
-              <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/IMG_1110.webp" alt="" />
+              <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/antropometria-2.webp" alt="" />
             </a>
           </div>
 
           <div class="col-lg-6">
             <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage3">
-              <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/IMG_3879.webp" alt="" />
+              <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/antropometria-3.webp" alt="" />
             </a>
             <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage4">
-              <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/IMG_0959.webp" alt="" />
+              <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/antropometria-4.webp" alt="" />
             </a>
           </div>
         </div>
       </div>
-      <!-- Fin Galería con modal para laboratorios de cómputo -->
+      <!-- Fin Galería con modal para laboratorios -->
     </div>
   </div>
 </section>
@@ -230,7 +232,7 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
 <div tabindex="-1" aria-labelledby="modalImage3" aria-hidden="true" class="modal fade" id="modalImage1">
   <div class="modal-dialog modal-lg modal-dialog-centered">
     <div class="modal-content bg-transparent text-white text-center">
-      <img src="img/IMG_3878.webp" alt="" />
+      <img src="img/antropometria-1.webp" alt="" />
     </div>
   </div>
 </div>
@@ -239,7 +241,7 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
 <div tabindex="-1" aria-labelledby="modalImage4" aria-hidden="true" class="modal fade" id="modalImage2">
   <div class="modal-dialog modal-lg modal-dialog-centered">
     <div class="modal-content bg-transparent text-white text-center">
-      <img src="img/IMG_1110.webp" alt="" />
+      <img src="img/antropometria-2.webp" alt="" />
     </div>
   </div>
 </div>
@@ -248,7 +250,7 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
 <div tabindex="-1" aria-labelledby="modalImage5" aria-hidden="true" class="modal fade" id="modalImage3">
   <div class="modal-dialog modal-lg modal-dialog-centered">
     <div class="modal-content bg-transparent text-white text-center">
-      <img src="img/IMG_3879.webp" alt="" />
+      <img src="img/antropometria-3.webp" alt="" />
     </div>
   </div>
 </div>
@@ -257,19 +259,19 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
 <div tabindex="-1" aria-labelledby="modalImage6" aria-hidden="true" class="modal fade" id="modalImage4">
   <div class="modal-dialog modal-lg modal-dialog-centered">
     <div class="modal-content bg-transparent text-white text-center">
-      <img src="img/IMG_0959.webp" alt="" />
+      <img src="img/antropometria-4.webp" alt="" />
     </div>
   </div>
 </div>
 <!-- Fin Modals de la galería-->
 
-<!-- Laboratorio de cómputo intensivo -->
+<!-- Sala de Seguridad e Higiene -->
 <div class="bg-primary pt-5"></div>
 <section class="seccionInstalaciones bg-dark p-2">
   <div class="row px-2 g-0">
     <div class="col-lg-6 col-12 p-2 shadow-sm">
       <div class="d-flex justify-content-center align-items-center w-100 h-100">
-        <img src="img/IMG_1713.webp" class="img-fluid rounded" alt="" />
+        <img src="img/seguridadehigiene.webp" class="img-fluid rounded" alt="" />
       </div>
     </div>
 
@@ -278,49 +280,60 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
         <div class="row g-0">
           <div class="col-12">
             <h2 class="tituloSeccionOscura text-center font-bold m-3">
-              Laboratorio de Cómputo Intensivo
+              Sala de Seguridad e Higiene
             </h2>
             <div class="separadorSeccionOscura"></div>
-            <h4 class="text-center text-light fw-bold fs-3">
-              Responsable: Abelardo Rodríguez León
-            </h4>
           </div>
           <div class="col-12">
             <p class="text-light" style="text-align: justify">
-              Adicionalmente a las oficinas administrativas y laboratorios de
-              cómputo, la carrera de ingeniería en sistemas computacionales
-              cuenta con el apoyo de un laboratorio de servidores en dónde el
-              alumnado tendrá la oportunidad de interactuar con clústeres con
-              diferentes enfoques tecnológicos.
+              La sala de seguridad e higiene cuenta con equipo y herramientas que tienen la finalidad de proteger a los trabajadores y crear un entorno laboral seguro y saludable, evitando accidentes y enfermedades relacionadas con el trabajo.
             </p>
           </div>
-          <div class="col-12">
-            <div class="bg-dark">
-              <ul class="m-3 text-warning font-bold" style="text-align: justify">
-                <li>Agave: Clúster de alto procesamiento.</li>
-                <li>Peyote: Clúster de visualización en 4K.</li>
-                <li>Saguar: Clúster de servicios de virtualización.</li>
-                <li>Nopal: Clúster de alto rendimiento.</li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-12">
-            <p class="text-light" style="text-align: justify">
-              El Dr. Abelardo Rodríguez León (responsable del laboratorio de
-              servidores) pone a disposición el equipo a aquellos alumnos que
-              deseen realizar proyectos, experimentos, investigaciones, realizar
-              servicio social o residencias profesionales dentro del
-              laboratorio.
-
-              <br />
-              <br />
-              Información de contacto: abelardo.rl@veracruz.tecnm.mx
-            </p>
+          <div class="col-12">          
           </div>
         </div>
       </div>
     </div>
+    <div class="justify-content-center text-center">
+              <p><a class="btn-warning w-auto btn font-bold" target="_blank" href="https://tinyurl.com/3ask8399">
+                  Reglamento</a></p>
+    </div>
   </div>
+</section>
+
+<!--Sala digital -->
+<div class="bg-primary pt-5"></div>
+<section class="seccionInstalaciones bg-dark p-2">
+  <div class="row px-2 g-0">
+    <div class="col-lg-6 col-12 p-4">
+      <div class="d-flex justify-content-center align-items-center w-100 h-100">
+        <div class="row g-0">
+          <div class="col-12">
+            <h2 class="tituloSeccionOscura text-center font-bold m-3">
+              Sala Digital
+            </h2>
+            <div class="separadorSeccionOscura"></div>
+          </div>
+          <div class="col-12">
+            <p class="text-light" style="text-align: justify">
+              La Sala Digital cuenta con equipo de cómputo en dónde los estudiantes podrán desempañarse en desarrollar diversos programas, aplicaciones y proyectos a lo largo de sus clases prácticas en la carrera de ingeniería industrial
+            </p>
+          </div>
+          <div class="col-12">          
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-6 col-12 p-2 shadow-sm">
+      <div class="d-flex justify-content-center align-items-center w-100 h-100">
+        <img src="img/saladigital.webp" class="img-fluid rounded" alt="" />
+      </div>
+    </div>
+    <div class="justify-content-center text-center">
+              <p><a class="btn-warning w-auto btn font-bold" target="_blank" href="https://tinyurl.com/5aad2j2j">
+                  Reglamento de Laboratorio</a></p>
+    </div>
+ </div>
 </section>
 
 <div class="bg-primary pt-5"></div>
@@ -329,4 +342,4 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
   <p class="font-semibold">Estudiantes de la Generación 2018 - 2023</p>
   <p>Gabriel Escobar Medina, Nancy Daniela Mendez Arpidez, Marco Gabriel Cortés Toledo, Yelitza Magali Rosas Jiménez, Iván de Jesús Agame Malpica, Eric Manuel Montalvo Cruz y Daniela Castro Rodriguez</p>
 </div>
-<!-- Fin Laboratorio de cómputo intensivo -->
+<!-- Fin Laboratorio de -->

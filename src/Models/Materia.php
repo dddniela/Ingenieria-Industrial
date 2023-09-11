@@ -25,26 +25,11 @@ class Materia
     {
         $ruta_img = "";
         switch ($Area) {
-            case 'Programacion':
-                $ruta_img = 'img/iconos/programacion.PNG';
-                break;
             case 'Asignaturas Comunes':
                 $ruta_img = 'img/iconos/asignaturas-comunes.PNG';
                 break;
-            case 'Redes':
-                $ruta_img = 'img/iconos/redes.PNG';
-                break;
-            case 'Bases de datos':
-                $ruta_img = 'img/iconos/bases-datos.PNG';
-                break;
-            case 'Electronica':
-                $ruta_img = 'img/iconos/electronica.PNG';
-                break;
-            case 'Ingenieria':
-                $ruta_img = 'img/iconos/ingenieria.PNG';
-                break;
-            case 'Sistemas operativos':
-                $ruta_img = 'img/iconos/sistemasop.PNG';
+            case 'Calidad':
+                $ruta_img = 'img/topicos/calidad.png';
                 break;
             case 'Calculo':
                 $ruta_img = 'img/iconos/calculo.PNG';
@@ -52,23 +37,23 @@ class Materia
             case 'Estadistica':
                 $ruta_img = 'img/iconos/estadistica.PNG';
                 break;
-            case 'Automatas':
-                $ruta_img = 'img/iconos/automatas.PNG';
+            case 'Administracion de Operaciones':
+                $ruta_img = 'img/topicos/operaciones.png';
                 break;
-            case 'Investigacion':
-                $ruta_img = 'img/iconos/investigacion.PNG';
+            case 'Formulacion y Evaluacion de Proyectos':
+                $ruta_img = 'img/topicos/proyectos.png';
                 break;
-            case 'Matematicas Aplicada':
-                $ruta_img = 'img/iconos/algebra.PNG';
+            case 'Seguridad e Higiene Industrial':
+                $ruta_img = 'img/topicos/seguridad.png';
                 break;
-            case 'Web':
-                $ruta_img = 'img/iconos/programacion-web.PNG';
+            case 'Procesos, procedimientos y productividad':
+                $ruta_img = 'img/topicos/productividad.png';
                 break;
-            case 'Administracion':
-                $ruta_img = 'img/iconos/administracion.PNG';
+            case 'Administracion de Operaciones':
+                $ruta_img = 'img/topicos/operaciones.png';
                 break;
-            case 'IA':
-                $ruta_img = 'img/iconos/inteligencia-artificial.PNG';
+            case 'Logistica':
+                $ruta_img = 'img/topicos/logistica.png';
                 break;
             default:
                 $ruta_img = 'img/extraescolares/circuloDeLectura.PNG';

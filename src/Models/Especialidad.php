@@ -28,14 +28,35 @@ class Especialidad
     {
         $ruta_img = "";
         switch ($Area) {
-            case 'Sistemas Concurrentes':
-                $ruta_img = 'img/iconos/circuloDeLectura.PNG';
+            case 'Asignaturas Comunes':
+                $ruta_img = 'img/iconos/asignaturas-comunes.PNG';
                 break;
-            case 'Distribuidas':
-                $ruta_img = 'img/iconos/circuloDeLectura.PNG';
+            case 'Calidad':
+                $ruta_img = 'img/topicos/calidad.png';
                 break;
-            case 'Transacciones':
-                $ruta_img = 'img/iconos/circuloDeLectura.PNG';
+            case 'Calculo':
+                $ruta_img = 'img/iconos/calculo.PNG';
+                break;
+            case 'Estadistica':
+                $ruta_img = 'img/iconos/estadistica.PNG';
+                break;
+            case 'Administracion de Operaciones':
+                $ruta_img = 'img/topicos/operaciones.png';
+                break;
+            case 'Formulacion y Evaluacion de Proyectos':
+                $ruta_img = 'img/topicos/proyectos.png';
+                break;
+            case 'Seguridad e Higiene Industrial':
+                $ruta_img = 'img/topicos/seguridad.png';
+                break;
+            case 'Procesos, procedimientos y productividad':
+                $ruta_img = 'img/topicos/productividad.png';
+                break;
+            case 'Administracion de Operaciones':
+                $ruta_img = 'img/topicos/operaciones.png';
+                break;
+            case 'Logistica':
+                $ruta_img = 'img/topicos/logistica.png';
                 break;
             default:
                 $ruta_img = 'img/extraescolares/circuloDeLectura.PNG';

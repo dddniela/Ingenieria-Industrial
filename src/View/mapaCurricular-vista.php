@@ -41,9 +41,7 @@
                 <li>
                     <button class="dropdown-item" id="tab-semestre8-tab" data-bs-toggle="pill" data-bs-target="#tab-semestre8" type="button" aria-controls="tab-semestre8" aria-selected="false">8vo Semestre</button>
                 </li>
-                <li>
-                    <button class="dropdown-item" id="tab-semestre9-tab" data-bs-toggle="pill" data-bs-target="#tab-semestre9" type="button" aria-controls="tab-semestre9" aria-selected="false">9no Semestre</button>
-                </li>
+                
             </ul>
         </li>
     </ul>
@@ -72,9 +70,6 @@
         </li>
         <li class="nav-item" role="presentation">
             <button class="nav-link" id="tab-semestre8-tab" data-bs-toggle="pill" data-bs-target="#tab-semestre8" type="button" role="tab" aria-controls="tab-semestre8" aria-selected="false">8vo Semestre</button>
-        </li>
-        <li class="nav-item" role="presentation">
-            <button class="nav-link" id="tab-semestre9-tab" data-bs-toggle="pill" data-bs-target="#tab-semestre9" type="button" role="tab" aria-controls="tab-semestre9" aria-selected="false">9no Semestre</button>
         </li>
     </ul>
     <div class="tab-content" id="pills-tabContent">
@@ -151,15 +146,6 @@
             </div>
 
         </div>
-        <div class="tab-pane fade" id="tab-semestre9" role="tabpanel" aria-labelledby="tab-semestre9-tab">
-            <div class="container">
-                <?php
-
-                echo $materia->imprimir9noSemestre();
-
-                ?>
-            </div>
-        </div>
     </div>
 
     <div class='modal fade' id='modalReticula' tabindex='-1' aria-labelledby='modalReticula' aria-hidden='true'>
@@ -214,16 +200,6 @@
                                 la formación
                                 profesional de los estudiantes de las instituciones adscritas al Tecnológico Nacional de
                                 México.
-                            </p>
-                            <h5 class="font-bold text-warning" style="text-align: justify">Especialidades que han
-                                existido:</h5>
-                            <div class="bg-dark">
-                                <ul class="m-3 text-light font-bold" style="text-align: justify">
-                                    <?php
-                                    echo $especialidad->imprimirNombres();
-                                    ?>
-                                </ul>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -231,7 +207,7 @@
 
             <div class="col-lg-6 col-12 p-2 shadow-sm">
                 <div class="d-flex justify-content-center align-items-center w-100 h-100">
-                    <img class="img-fluid rounded" src="img/labdigital.webp" alt="">
+                    <img class="img-fluid rounded" src="img/especialidad.webp" alt="">
                 </div>
             </div>
 
@@ -273,7 +249,7 @@
 
             <div class="col-lg-6 col-12 p-2 shadow-sm">
                 <div class="d-flex justify-content-center align-items-center w-100 h-100">
-                    <img class="img-fluid rounded" src="img/IMG_4446.webp" alt="">
+                    <img class="img-fluid rounded" src="img/desarrollo.webp" alt="">
                 </div>
             </div>
 
@@ -285,8 +261,7 @@
                             <div class="sectionSeparator"></div>
                         </div>
                         <div class="col-12" style="text-align: center;">
-                            <p style="text-align: justify;"> El plan de estudios de la carrera de ingeniería en sistemas
-                                computacionales ofrece
+                            <p style="text-align: justify;"> El plan de estudios de la carrera de Ingeniería Industrial ofrece
                                 un desarrollo integral y profesional con el objetivo de que el estudiante se pueda
                                 desenvolver en diferentes áreas
                                 de la tecnología, ofreciendo soluciones óptimas e innovadoras.
@@ -348,7 +323,7 @@
 
                 <div class="col-lg-6 col-12 p-2 shadow-sm">
                     <div class="d-flex justify-content-center align-items-center w-100 h-100">
-                        <img class="img-fluid rounded" src="img/ITVER-10.webp" alt="">
+                        <img class="img-fluid rounded" src="img/complementarias.webp" alt="">
                     </div>
                 </div>
             </div>
@@ -401,7 +376,7 @@
 
     <!-- Residencias profesionales -->
     <div class="bg-primary pt-5">
-        <img src="img/IMG_0337.webp" class="w-full" alt="">
+        <img src="img/residencias.webp" class="w-full" alt="">
         <section class="darkSection bg-dark">
             <div class="row px-2 g-0">
                 <div class="col-lg-12 col-12 py-4">
@@ -517,7 +492,7 @@
 
             <div class="col-lg-6 col-12 p-2 shadow-sm">
                 <div class="d-flex justify-content-center align-items-center w-100 h-100">
-                    <img class="img-fluid rounded" src="img/IMG_1245.webp" alt="">
+                    <img class="img-fluid rounded" src="img/tutorias.webp" alt="">
                 </div>
             </div>
 
@@ -580,7 +555,7 @@
 
                 <div class="col-lg-6 col-12 p-2 shadow-sm">
                     <div class="d-flex justify-content-center align-items-center w-100 h-100">
-                        <img class="img-fluid rounded" src="img/IMG_3886.webp" alt="">
+                        <img class="img-fluid rounded" src="img/verano.webp" alt="">
                     </div>
                 </div>
 
@@ -591,7 +566,7 @@
 
     <!-- Titulación -->
     <div class="bg-primary pt-5">
-        <img src="img/ITVER-7.webp" class="w-full" alt="">
+        <img src="img/titulacion-1.webp" class="w-full" alt="">
         <section class="darkSection bg-dark">
             <div class="row px-2 g-0">
                 <div class="col-lg-12 col-12 py-4">
