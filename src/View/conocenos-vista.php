@@ -85,7 +85,7 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
             <h4 class="text-center fw-bold fs-3">
               <?php
               if ($jefeDepartamento) {
-                echo $jefeDepartamento->nombre . " de Ingeniería Industrial";
+                echo $jefeDepartamento->nombrePuesto . " de Ingeniería Industrial";
               }
               ?>
             </h4>
@@ -139,7 +139,7 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
             <h4 class="text-center fw-bold fs-3">
               <?php
               if ($coordinador) {
-                echo $coordinador->nombre . " de " . $coordinador->nombreCarrera;
+                echo $coordinador->nombrePuesto . " de " . $coordinador->nombreCarrera;
               }
               ?>
             </h4>
