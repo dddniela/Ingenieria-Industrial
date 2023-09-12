@@ -9,7 +9,7 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
 <!-- Portada -->
 <div class="row g-0">
   <div class="position-relative w-100 overflow-hidden">
-    <img class="w-100 img-fluid" src="img/banner-conocenos.webp" alt="" />
+    <img class="w-100 img-fluid" src="img/banner-conocenos2.webp" alt="" />
     <div class="position-absolute top-50 start-50 translate-middle w-100">
       <div class="d-flex flex-column justify-content-center align-items-center text-center">
         <h1 class="fw-bold text-warning shadow-text">Conócenos</h1>
@@ -29,7 +29,7 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
 
     <div class="col-lg-6 col-12 p-2 shadow-sm">
       <div class="d-flex justify-content-center align-items-center w-100 h-100">
-        <img class="img-fluid rounded" src="img/conocenos.webp" alt="">
+        <img class="img-fluid rounded" src="img/conocenos2.webp" alt="">
       </div>
     </div>
 
