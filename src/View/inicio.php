@@ -115,7 +115,7 @@
     <div class="col-lg-4 col-sm-6 text-center p-3">
       <div class="area shadow-sm p-4">
         <a href="?option=3.php">
-          <img class="areaImage items-center" src="img/topicos/logistica.png" alt="">
+          <img class="areaImage items-center" src="img/topicos/logistica2.png" alt="">
         </a>
         <h3 class="areaTitle text-center font-bold text-xl">Logística</h3>
         <p class="areaText">Gestionar eficientemente el flujo de bienes, información y recursos para satisfacer las necesidades de los clientes.</p>
@@ -272,7 +272,7 @@
     <div class="col-lg-4 col-sm-6 text-center p-3">
       <div class="area shadow-sm p-4 rounded-3">
         <a href="?option=5">
-          <img class="img-fluid w-90 shadow-1-strong rounded mb-4  p-1" src="img/comunidad.webp" alt="">
+          <img class="img-fluid w-90 shadow-1-strong rounded mb-4  p-1" src="img/boton-comunidades.webp" alt="">
         </a>
         <h3 class="areaTitle text-center font-bold text-xl">Comunidades</h3>
       </div>

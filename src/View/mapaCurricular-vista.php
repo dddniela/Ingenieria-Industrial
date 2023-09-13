@@ -557,7 +557,7 @@
 
                 <div class="col-lg-6 col-12 p-2 shadow-sm">
                     <div class="d-flex justify-content-center align-items-center w-100 h-100">
-                        <img class="img-fluid rounded" src="img/verano.webp" alt="">
+                        <img class="img-fluid rounded" src="img/verano2.webp" alt="">
                     </div>
                 </div>
 

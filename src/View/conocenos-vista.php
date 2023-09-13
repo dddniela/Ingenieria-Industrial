@@ -29,7 +29,7 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
 
     <div class="col-lg-6 col-12 p-2 shadow-sm">
       <div class="d-flex justify-content-center align-items-center w-100 h-100">
-        <img class="img-fluid rounded" src="img/conocenos2.webp" alt="">
+        <img class="img-fluid rounded" src="img/conocenos.webp" alt="">
       </div>
     </div>
 
@@ -273,7 +273,7 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
   <div class="row px-2 g-0">
     <div class="col-lg-6 col-12 p-2 shadow-sm">
       <div class="d-flex justify-content-center align-items-center w-100 h-100">
-        <img src="img/seguridadehigiene.webp" class="img-fluid rounded" alt="" />
+        <img src="img/higiene.webp" class="img-fluid rounded" alt="" />
       </div>
     </div>
 
@@ -291,14 +291,13 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
               La sala de seguridad e higiene cuenta con equipo y herramientas que tienen la finalidad de proteger a los trabajadores y crear un entorno laboral seguro y saludable, evitando accidentes y enfermedades relacionadas con el trabajo.
             </p>
           </div>
-          <div class="col-12">          
+          <div class="justify-content-center text-center">
+              <p>
+                <a class="btn-warning w-auto btn font-bold" target="_blank" href="https://tinyurl.com/3ask8399">Reglamento</a>
+              </p>
           </div>
         </div>
       </div>
-    </div>
-    <div class="justify-content-center text-center">
-              <p><a class="btn-warning w-auto btn font-bold" target="_blank" href="https://tinyurl.com/3ask8399">
-                  Reglamento</a></p>
     </div>
   </div>
 </section>
@@ -321,7 +320,10 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
               La Sala Digital cuenta con equipo de cómputo en dónde los estudiantes podrán desempañarse en desarrollar diversos programas, aplicaciones y proyectos a lo largo de sus clases prácticas en la carrera de ingeniería industrial
             </p>
           </div>
-          <div class="col-12">          
+          <div class="justify-content-center text-center">
+              <p>
+                <a class="btn-warning w-auto btn font-bold" target="_blank" href="https://tinyurl.com/5aad2j2j">Reglamento</a>
+              </p>
           </div>
         </div>
       </div>
@@ -331,12 +333,43 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
         <img src="img/saladigital.webp" class="img-fluid rounded" alt="" />
       </div>
     </div>
-    <div class="justify-content-center text-center">
-              <p><a class="btn-warning w-auto btn font-bold" target="_blank" href="https://tinyurl.com/5aad2j2j">
-                  Reglamento de Laboratorio</a></p>
-    </div>
  </div>
 </section>
+
+<div class="bg-primary pt-5"></div>
+<section class="seccionInstalaciones bg-dark p-2">
+  <div class="row px-2 g-0">
+    <div class="col-lg-6 col-12 p-2 shadow-sm">
+      <div class="d-flex justify-content-center align-items-center w-100 h-100">
+        <img src="img/estudiotrabajo.webp" class="img-fluid rounded" alt="" />
+      </div>
+    </div>
+
+    <div class="col-lg-6 col-12 p-4">
+      <div class="d-flex justify-content-center align-items-center w-100 h-100">
+        <div class="row g-0">
+          <div class="col-12">
+            <h2 class="tituloSeccionOscura text-center font-bold m-3">
+              Laboratorio de Estudio del Trabajo
+            </h2>
+            <div class="separadorSeccionOscura"></div>
+          </div>
+          <div class="col-12">
+            <p class="text-light" style="text-align: justify">
+              El laboratorio de Estudio del Trabajo tiene como función principal el auxiliar a los estudiantes en el estudio de la materia. Estudio del Trabajo es una disciplina que analiza y optimiza la eficiencia de las tareas de producción. Consiste en observar, medir y analizar cada paso de un proceso para identificar ineficiencias y luego desarrollar mejoras en la línea de producción, aumentando la productividad y reduciendo costos.
+            </p>
+          </div>
+          <div class="justify-content-center text-center">
+              <p>
+                <a class="btn-warning w-auto btn font-bold" target="_blank" href="https://tinyurl.com/3ask8399">Reglamento</a>
+              </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 
 <div class="bg-primary pt-5"></div>
 <div class="p-4 text-center">
