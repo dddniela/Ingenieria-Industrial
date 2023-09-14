@@ -25,6 +25,26 @@ class Seccion
         return $objetivo;
     }
 
+    public function getMision()
+    {
+        $cn = $this->connection;
+        $sql = "SELECT titulo, descripcion FROM tbl_seccion WHERE programaId = " . $GLOBALS['programaId'] . "
+        AND moduloId = 2 AND titulo = 'Mision' AND status = 1;";
+        $mision = mysqli_query($this->connection, $sql);
+        $mision = $mision->fetch_object();
+        return $mision;
+    }
+
+    public function getVision()
+    {
+        $cn = $this->connection;
+        $sql = "SELECT titulo, descripcion FROM tbl_seccion WHERE programaId = " . $GLOBALS['programaId'] . "
+        AND moduloId = 2 AND titulo = 'Vision' AND status = 1;";
+        $vision = mysqli_query($this->connection, $sql);
+        $vision = $vision->fetch_object();
+        return $vision;
+    }
+
     public function getPerfilEgreso()
     {
         $cn = $this->connection;
