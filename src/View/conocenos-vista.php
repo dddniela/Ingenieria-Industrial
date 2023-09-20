@@ -85,7 +85,7 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
             <h4 class="text-center fw-bold fs-3">
               <?php
               if ($jefeDepartamento) {
-                echo"Jefa de Departamento de Ingeniería Industrial";
+                echo"Jefa del Departamento de Ingeniería Industrial";
               }
               ?>
             </h4>
@@ -356,7 +356,7 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
           </div>
           <div class="col-12">
             <p class="text-light" style="text-align: justify">
-              El laboratorio de Estudio del Trabajo tiene como función principal el auxiliar a los estudiantes en el estudio de la materia. Estudio del Trabajo es una disciplina que analiza y optimiza la eficiencia de las tareas de producción. Consiste en observar, medir y analizar cada paso de un proceso para identificar ineficiencias y luego desarrollar mejoras en la línea de producción, aumentando la productividad y reduciendo costos.
+              El laboratorio de Estudio del Trabajo tiene como función principal el auxiliar a los estudiantes en la disciplina que analiza y optimiza la eficiencia de las tareas de producción. Consiste en observar, medir y analizar cada paso de un proceso para identificar ineficiencias y luego desarrollar mejoras en la línea de producción, aumentando la productividad y reduciendo costos.
             </p>
           </div>
           <div class="justify-content-center text-center">

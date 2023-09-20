@@ -378,7 +378,7 @@
 
     <!-- Residencias profesionales -->
     <div class="bg-primary pt-5">
-        <img src="img/residencias.webp" class="w-full" alt="">
+        <img src="img/residencias2.webp" class="w-full" alt="">
         <section class="darkSection bg-dark">
             <div class="row px-2 g-0">
                 <div class="col-lg-12 col-12 py-4">
@@ -415,7 +415,7 @@
 
                 <div class="col-lg-4 col-sm-6 text-center p-3">
                     <div class="area shadow-sm p-4">
-                        <img class="areaImage items-center" src="img/icon1.PNG" alt="">
+                        <img class="areaImage items-center" src="img/proyectos.png" alt="">
                         <h3 class="areaTitle text-center font-bold text-xl">Proyectos</h3>
                         <p class="areaText">Contribuir a la formación integral del alumno a través de la interrelación de
                             conocimientos teóricos y aspectos prácticos de la profesión.</p>
@@ -424,7 +424,7 @@
 
                 <div class="col-lg-4 col-sm-6 text-center p-3">
                     <div class="area shadow-sm p-4">
-                        <img class="areaImage items-center" src="img/icon2.PNG" alt="">
+                        <img class="areaImage items-center" src="img/valores.png" alt="">
                         <h3 class="areaTitle text-center font-bold text-xl">Valores</h3>
                         <p class="areaText">Promover valores profesionales, humanísticos y éticos en la formación integral
                             del
@@ -434,7 +434,7 @@
 
                 <div class="col-lg-4 col-sm-6 text-center p-3">
                     <div class="area shadow-sm p-4">
-                        <img class="areaImage items-center" src="img/icon3.PNG" alt="">
+                        <img class="areaImage items-center" src="img/experiencia.png" alt="">
                         <h3 class="areaTitle text-center font-bold text-xl">Experiencia</h3>
                         <p class="areaText">Desarrollar habilidades y competencias para diagnosticar, planear, ejecutar y
                             evaluar
@@ -599,7 +599,7 @@
 
                 <div class="col-lg-4 col-sm-6 text-center p-3">
                     <div class="area shadow-sm p-4">
-                        <img class="areaImage items-center" src="img/icon1.PNG" alt="">
+                        <img class="areaImage items-center" src="img/proyectos.png" alt="">
                         <h3 class="areaTitle text-center font-bold text-xl">Proyectos</h3>
                         <p class="areaText">Residencia Profesional, Proyecto de Investigación y/o Desarrollo
                             Tecnológico, Proyecto Integrador, Proyecto Productivo.</p>
@@ -618,7 +618,7 @@
 
                 <div class="col-lg-4 col-sm-6 text-center p-3">
                     <div class="area shadow-sm p-4">
-                        <img class="areaImage items-center" src="img/icon2.PNG" alt="">
+                        <img class="areaImage items-center" src="img/tesis.png" alt="">
                         <h3 class="areaTitle text-center font-bold text-xl">Tesis</h3>
                         <p class="areaText">Proyecto de Innovación Tecnológica, proyecto de Emprendedurismo, Proyecto
                             Integral

@@ -56,6 +56,7 @@ $vision = $seccion->getVision();
 <!--Fin Objetivo general -->
 
 <!-- Misión -->
+<div class="bg-primary pt-5"></div>
 <section class="p-2">
     <div class="row px-2 g-0">
         <div class="lightSection col-lg-6 col-12 p-4">
@@ -89,6 +90,7 @@ $vision = $seccion->getVision();
 <!--Fin Misión -->
 
 <!-- Visión -->
+<div class="bg-primary pt-5"></div>
 <section class="p-2">
     <div class="row px-2 g-0">
         <div class="col-lg-6 col-12 p-2 shadow-sm">
