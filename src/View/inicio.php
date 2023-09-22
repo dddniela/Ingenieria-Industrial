@@ -208,11 +208,11 @@
       <div class="d-flex justify-content-center align-items-center w-100 h-100">
         <div class="row g-0">
           <div class="col-12">
-            <h2 class="sectionTitle text-center font-bold m-3">Comunidad docente</h2>
+            <h2 class="sectionTitle text-center font-bold m-3">Personal</h2>
             <div class="sectionSeparator"></div>
           </div>
           <div class="col-12" style="text-align: center;">
-            <p style="text-align: justify;"> Nuestros docentes son impulsores de cambio, son el elemento esencial de
+            <p style="text-align: justify;"> Nuestro personal es impulsor de cambio, es el elemento esencial de
               nuestra institución, contamos con profesionales de diversas disciplinas, quienes demuestran diariamente 
               su compromiso más allá de las aulas. Son personas que tienen la facultad de transformar vidas e impactar a 
               las futuras generaciones de estudiantes.
@@ -340,6 +340,8 @@
       </div>
     </div>
   </div>
+
+ <!-- 
   <div class="row g-0">
     <h4 class="sectionTitle  text-center font-bold">Departamento de Ingeniería Industrial</h4>
     <div class="d-flex flex-row justify-content-center">
@@ -359,5 +361,6 @@
         </a>
     </div>
   </div>
+-->
 </section>
 <!-- Fin Área de redes sociales -->

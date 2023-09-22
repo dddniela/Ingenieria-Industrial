@@ -370,7 +370,7 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
   </div>
 </section>
 
-
+<!--
 <div class="bg-primary pt-5"></div>
 <div class="p-4 text-center">
   <h5 class="font-bold">Autores de la página:</h5>
@@ -382,5 +382,5 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
   <h5 class="font-bold">Agradecimientos</h5>
   <p class="justify-content-center">Eric Manuel Montalvo Cruz, Ivan de Jesús Agame Malpica, Susana María Hernández Molina, Rocío Marcela Ramirez Hernández, Alessandra Ortega Caballero, María Fernanda Ramírez Vicente, Sandy Estela Barragán Guerrero, Laura Alejandra Díaz Contreras y Fernando Martinez</p>
 </div>
-
+            -->
 <!-- Fin Laboratorio de -->
