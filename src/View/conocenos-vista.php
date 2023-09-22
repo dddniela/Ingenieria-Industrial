@@ -317,7 +317,7 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
           </div>
           <div class="col-12">
             <p class="text-light" style="text-align: justify">
-              La Sala Digital cuenta con equipo de cómputo en dónde los estudiantes podrán desempañarse en desarrollar diversos programas, aplicaciones y proyectos a lo largo de sus clases prácticas en la carrera de ingeniería industrial
+              La Sala Digital cuenta con equipo de cómputo en dónde los estudiantes podrán desempeñarse en desarrollar diversos programas, aplicaciones y proyectos a lo largo de sus clases prácticas en la carrera de ingeniería industrial
             </p>
           </div>
           <div class="justify-content-center text-center">
@@ -375,6 +375,12 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
 <div class="p-4 text-center">
   <h5 class="font-bold">Autores de la página:</h5>
   <p class="font-semibold">Estudiantes de la Generación 2018 - 2023</p>
-  <p>Gabriel Escobar Medina, Nancy Daniela Mendez Arpidez, Marco Gabriel Cortés Toledo, Yelitza Magali Rosas Jiménez, Iván de Jesús Agame Malpica, Eric Manuel Montalvo Cruz y Daniela Castro Rodriguez</p>
+  <p>Gabriel Escobar Medina, Nancy Daniela Mendez Arpidez, Marco Gabriel Cortés Toledo, Yelitza Magali Rosas Jiménez y Daniela Castro Rodriguez</p>
 </div>
+
+<div class="p-4 text-center">
+  <h5 class="font-bold">Agradecimientos</h5>
+  <p class="justify-content-center">Eric Manuel Montalvo Cruz, Ivan de Jesús Agame Malpica, Susana María Hernández Molina, Rocío Marcela Ramirez Hernández, Alessandra Ortega Caballero, María Fernanda Ramírez Vicente, Sandy Estela Barragán Guerrero, Laura Alejandra Díaz Contreras y Fernando Martinez</p>
+</div>
+
 <!-- Fin Laboratorio de -->

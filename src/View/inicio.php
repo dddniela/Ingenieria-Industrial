@@ -73,7 +73,7 @@
             <div class="sectionSeparator"></div>
           </div>
           <div class="col-12" style="text-align: center;">
-            <p style="text-align: justify;"> La Ingeniería Industrial es una de las ramas de la Ingeniería que tiene por objetivo poder brindar crecimiento en las empresas reduciendo costos. Un Ingeniero Industrial debe ser competente para diseñar, implantar, administrar, innovar y optimizar sistemas de producción de bienes y servicios; con enfoque sistémico y sustentable en un entorno global. Este tipo de Ingeniería es importante puesto que la producción en los sectores de manufactura y de servicio requiere de constante simplificación en sus procesos. Además, el Modelo Educativo que sustenta nuestro programa de estudios es el "Modelo Educativo para el Siglo XXI. Formación y Desarrollo de Competencias Profesionales".
+            <p style="text-align: justify;"> La Ingeniería Industrial es una de las ramas de la Ingeniería que tiene por objetivo poder brindar crecimiento en las empresas reduciendo costos. Un Ingeniero Industrial debe ser competente para diseñar, implantar, administrar, innovar y optimizar sistemas de producción de bienes y servicios; con enfoque sistémico y sustentable en un entorno global. Este tipo de Ingeniería es importante puesto que la producción en los sectores de manufactura y de servicio requiere de constante simplificación en sus procesos. El Modelo Educativo que sustenta nuestro programa de estudios es el "Modelo Educativo para el Siglo XXI Formación y Desarrollo de Competencias Profesionales".
             </p>
             <a class="btn btn-warning font-bold" href="?option=3" role="button">¡Saber más!</a>
           </div>
@@ -196,26 +196,10 @@
     <div class="col-lg-6 col-sm-12">
       <div class="galleryContainer bg-light">
         <div class="row g-0">
-          <div class="col-4 px-2">
-            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Docentes/brendaCastroPerez.webp"
-              alt="">
-            <img class="img-fluid w-100 shadow-1-strong rounded m-2"
-              src="img/Docentes/oscarPerezArellano.webp" alt="">
-          </div>
-
-          <div class="col-4 px-2">
-            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Docentes/antonioHuertaEstevez.webp"
-              alt="">
-            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Docentes/elsaElenaCoronaMayoral.webp" alt="">
-          </div>
-
-          <div class="col-4 px-2">
-            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Docentes/mariadelPilarRodriguezGarcia.webp"
-              alt="">
-            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Docentes/fernandoArturoDelgadoSoto.webp"
+          <div class="d-flex justify-content-center align-items-center w-100 h-100">
+            <img class="img-fluid rounded" src="img/docente-inicio.webp"
               alt="">
           </div>
-
         </div>
       </div>
     </div>
