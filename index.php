@@ -9,10 +9,13 @@ $url = $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'];
 
 $urlControl = array(
     $_SERVER['SERVER_NAME'] . "/Ingenieria-Industrial/",
-    $_SERVER['SERVER_NAME'] . "/Ingenieria-Industrial/?option=0"
-);
+    $_SERVER['SERVER_NAME'] . "/Ingenieria-Industrial/?option=0");
 
 $programaId = 7;
+$api = 'http://localhost:3010';
+$PATH_DOCENTE =  $GLOBALS['api'] . '/imagenes/Ing-Industrial/docentes/';
+$PATH_COMUNIDAD =  $GLOBALS['api'] . '/imagenes/Ing-Industrial/comunidades/';
+
 $conn = new Conexion();
 $conn->connect();
 $docente = new Docente();
@@ -27,7 +30,6 @@ $comunidad->setConnection($conn->getDB());
 
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -56,5 +58,4 @@ if (isset($_GET['option'])) {
 <?php
 include_once "src/View/footer.php";
 ?>
-
 </html>
