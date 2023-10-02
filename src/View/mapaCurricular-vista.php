@@ -1,3 +1,10 @@
+<?php
+require_once("src/Models/Seccion.php");
+$seccion = new Seccion();
+$seccion->setConnection($conn->getDB());
+
+$reticula = $seccion->imprimirBotonReticula();
+?>
 <div class="row g-0">
     <div class="position-relative w-100 overflow-hidden">
         <img class="w-100 img-fluid" src="img/banner-mapa.webp" alt="">
@@ -173,8 +180,11 @@
 
 
     <div class="justify-content-center text-center">
-        <p><a class="btn-warning w-auto btn font-bold" target="_blank" href="https://tinyurl.com/bmnn8ktp">Descargar
-                Retícula</a></p>
+        <?php
+        if ($reticula) {
+            echo $reticula;
+        }
+        ?>
     </div>
 
 </div>

@@ -4,10 +4,13 @@ $seccion = new Seccion();
 $seccion->setConnection($conn->getDB());
 
 $objetivo = $seccion->getObjetivo();
+$objetivo = $objetivo['data'];
 $mision = $seccion->getMision();
+$mision = $mision['data'];
 $vision = $seccion->getVision();
-
+$vision = $vision['data'];
 ?>
+
 <!-- Portada -->
 <div class="row g-0">
     <div class="position-relative w-100 overflow-hidden">
@@ -43,7 +46,7 @@ $vision = $seccion->getVision();
                         <p style="text-align: justify;">
                             <?php
                             if ($objetivo) {
-                                echo $objetivo->descripcion;
+                                echo $objetivo['descripcion'];
                             }
                             ?>
                         </p>
@@ -72,7 +75,7 @@ $vision = $seccion->getVision();
                         <p style="text-align: justify;">
                             <?php
                             if ($mision) {
-                                echo $mision->descripcion;
+                                echo $mision['descripcion'];
                             }
                             ?>
                         </p>
@@ -111,7 +114,7 @@ $vision = $seccion->getVision();
                         <p style="text-align: justify;">
                             <?php
                             if ($vision) {
-                                echo $vision->descripcion;
+                                echo $vision['descripcion'];
                             }
                             ?>
                         </p>

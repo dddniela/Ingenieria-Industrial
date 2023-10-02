@@ -1,10 +1,12 @@
 <?php
 require_once("src/Models/Administrativo.php");
 $administrativos = new Administrativo();
-$administrativos->setConnection($conn->getDB());
 
 $coordinador = $administrativos->getCoordinador();
 $jefeDepartamento =  $administrativos->getJefeDepartamento();
+
+$imagenJefeDep = $GLOBALS['PATH_DOCENTE'] . $jefeDepartamento['imagen'];
+$imagenCoordinador = $GLOBALS['PATH_DOCENTE'] . $coordinador['imagen'];
 ?>
 <!-- Portada -->
 <div class="row g-0">
@@ -77,7 +79,7 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
             <h2 class="sectionTitle text-center font-bold m-3">
               <?php
               if ($jefeDepartamento) {
-                echo $jefeDepartamento->nombre;
+                echo $jefeDepartamento['nombre'];;
               }
               ?>
             </h2>
@@ -94,7 +96,7 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
             <p class="" style="text-align: justify">
               <?php
               if ($jefeDepartamento) {
-                echo $jefeDepartamento->descripcion;
+                echo $jefeDepartamento['descripcion'];
               }
               ?>
             </p>
@@ -105,7 +107,7 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
 
     <div class="col-lg-6 col-12 p-2 shadow-sm">
       <div class="d-flex justify-content-center align-items-center w-100 h-100">
-        <img class="img-fluid rounded" src='img\Docentes\<?php if ($jefeDepartamento)  echo $jefeDepartamento->imagen; ?>' alt="">
+      <img class="img-fluid rounded" src='<?php if ($jefeDepartamento)  echo $imagenJefeDep; ?>' alt="">
       </div>
     </div>
 
@@ -120,7 +122,7 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
 
     <div class="col-lg-6 col-12 p-2 shadow-sm">
       <div class="d-flex justify-content-center align-items-center w-100 h-100">
-        <img class="img-fluid rounded" src='img\Docentes\<?php if ($coordinador) echo $coordinador->imagen; ?>' alt="">
+      <img class="img-fluid rounded" src='<?php if ($coordinador) echo $imagenCoordinador; ?>' alt="">
       </div>
     </div>
 
@@ -131,7 +133,7 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
             <h2 class="sectionTitle text-center font-bold m-3">
               <?php
               if ($coordinador) {
-                echo $coordinador->nombre;
+                echo $coordinador['nombre'];
               }
               ?>
             </h2>
@@ -139,7 +141,7 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
             <h4 class="text-center fw-bold fs-3">
               <?php
               if ($coordinador) {
-                echo "Coordinador de " . $coordinador->nombreCarrera;
+                echo "Coordinador de Ingeniería Industrial";
               }
               ?>
             </h4>
@@ -148,7 +150,7 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
             <p class="" style="text-align: justify">
               <?php
               if ($coordinador) {
-                echo $coordinador->descripcion;
+                echo $coordinador['descripcion'];
               }
               ?>
             </p>
