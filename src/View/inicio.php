@@ -267,7 +267,7 @@
 </section>
 <!-- Fin Enlaces ->
 
-<!-- Área de redes sociales -->
+<-- Área de redes sociales -->
 <section class="lightSection p-2 g-0">
   <div class="row g-0">
     <div class="col">
