@@ -60,40 +60,43 @@ class Especialidad
         $ruta_img = "";
         switch ($Area) {
             case 'Asignaturas Comunes':
-                $ruta_img = 'img/iconos/asignaturas-comunes.PNG';
+                $ruta_img = 'asignaturas-comunes.PNG';
                 break;
             case 'Calidad':
-                $ruta_img = 'img/topicos/calidad.png';
+                $ruta_img = 'calidad.png';
                 break;
             case 'Calculo':
-                $ruta_img = 'img/iconos/calculo.PNG';
+                $ruta_img = 'calculo.PNG';
                 break;
             case 'Estadistica':
-                $ruta_img = 'img/iconos/estadistica.PNG';
+                $ruta_img = 'estadistica.PNG';
                 break;
             case 'Administracion de Operaciones':
-                $ruta_img = 'img/topicos/operaciones.png';
+                $ruta_img = 'operaciones.png';
                 break;
             case 'Formulacion y Evaluacion de Proyectos':
-                $ruta_img = 'img/topicos/proyectos.png';
+                $ruta_img = 'proyectos.png';
                 break;
             case 'Seguridad e Higiene Industrial':
-                $ruta_img = 'img/topicos/seguridad.png';
+                $ruta_img = 'seguridad.png';
                 break;
             case 'Procesos, procedimientos y productividad':
-                $ruta_img = 'img/topicos/productividad.png';
+                $ruta_img = 'productividad.png';
                 break;
             case 'Administracion de Operaciones':
-                $ruta_img = 'img/topicos/operaciones.png';
+                $ruta_img = 'operaciones.png';
                 break;
             case 'Logistica':
-                $ruta_img = 'img/topicos/logistica.png';
+                $ruta_img = 'logistica.png';
                 break;
             default:
-                $ruta_img = 'img/extraescolares/circuloDeLectura.PNG';
+                $ruta_img = 'circuloDeLectura.PNG';
                 break;
         }
-        return $ruta_img;
+        $type = pathinfo($ruta_img, PATHINFO_EXTENSION);
+        $urlImagen = file_get_contents($GLOBALS['PATH_ICONO'] . $ruta_img);
+        $urlImagen = 'data:image/' . $type . ';base64,' . base64_encode($urlImagen);
+        return $urlImagen;
     }
 
     function imprimirNombres()
